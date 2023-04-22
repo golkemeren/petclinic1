@@ -13,12 +13,6 @@ authority varchar(128) bor null
 create unique index idx_auth_username on authorities(username,authoritiy);
 
 
-
-
-
-
-
-
 CREATE TABLE PUBLIC.T_OWNER(
     ID BIGINT NOT NULL,
     FIRST_NAME VARCHAR(255) not null,
